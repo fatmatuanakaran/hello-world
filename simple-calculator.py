@@ -23,7 +23,7 @@ while True:
         try:
             num1 = input("Excellent. Please enter your first number. ")
             num2 = input("Now please enter your second number. ")
-        except ValueError
+        except ValueError:
             print("Please input a value in between 1-5 to pick from (1)addition, (2)subtraction, (3)division, (4)multiplication, (5)raising power.")
             continue
         if a == '1':
